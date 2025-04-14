@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="mb-10 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[160px]">
                 <div className="text-xl font-bold text-white">
-                  QUICKLY<span className="text-primary">TECH</span>
+                  QUICKLY<span className="text-white">TECH</span>
                 </div>
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">

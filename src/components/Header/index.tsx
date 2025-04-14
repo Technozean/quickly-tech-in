@@ -64,19 +64,19 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <div className="text-xl font-bold dark:hidden">
-                      QUICKLY<span className="text-primary">TECH</span>
+                      QUICKLY<span className="text-white">TECH</span>
                     </div>
                     <div className="hidden text-xl font-bold text-white dark:block">
-                      QUICKLY<span className="text-primary">TECH</span>
+                      QUICKLY<span className="text-white">TECH</span>
                     </div>
                   </>
                 ) : (
                   <>
                     <div className={`text-xl font-bold ${sticky ? "text-dark" : "text-white"} dark:hidden`}>
-                      QUICKLY<span className="text-primary">TECH</span>
+                      QUICKLY<span className="text-white">TECH</span>
                     </div>
                     <div className="hidden text-xl font-bold text-white dark:block">
-                      QUICKLY<span className="text-primary">TECH</span>
+                      QUICKLY<span className="text-white">TECH</span>
                     </div>
                   </>
                 )}

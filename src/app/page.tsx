@@ -14,8 +14,8 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  title: "Quickly Design Technology Pvt Ltd | Digital Marketing Agency India",
+  description: "Grow your business with Quickly Design Technology – a results-driven digital marketing agency offering SEO, social media, paid ads, content, and web design. Book a free consultation today!",
 };
 
 export default function Home() {
