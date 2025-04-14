@@ -11,8 +11,8 @@ const Contact = () => {
                 <span className="mb-6 block text-base font-medium text-dark dark:text-white">
                   CONTACT US
                 </span>
-                <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Let&#39;s talk about your problem.
+                <h2 className="max-w-[360px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
+                  Ready to accelerate your online growth?
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -33,7 +33,10 @@ const Contact = () => {
                       Our Location
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
+                      Quickly Design Technology Pvt Ltd
+                    </p>
+                    <p className="text-base text-body-color dark:text-dark-6">
+                      Office address
                     </p>
                   </div>
                 </div>
@@ -53,10 +56,10 @@ const Contact = () => {
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                      info@quicklytech.in
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
+                      contact@quicklytech.in
                     </p>
                   </div>
                 </div>
@@ -70,7 +73,7 @@ const Contact = () => {
               "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Send us a Message
+                Request a Free Consultation
               </h3>
               <form>
                 <div className="mb-[22px]">
@@ -83,7 +86,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder="Your Name"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -97,7 +100,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="example@yourmail.com"
+                    placeholder="your@email.com"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -111,7 +114,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    placeholder="Your Phone Number"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -125,7 +128,7 @@ const Contact = () => {
                   <textarea
                     name="message"
                     rows={1}
-                    placeholder="type your message here"
+                    placeholder="Tell us about your project"
                     className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>
                 </div>
@@ -134,7 +137,7 @@ const Contact = () => {
                     type="submit"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
                   >
-                    Send
+                    Send Request
                   </button>
                 </div>
               </form>

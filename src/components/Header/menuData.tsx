@@ -15,14 +15,52 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Pricing",
-    path: "/pricing",
+    title: "Services",
+    path: "#services",
     newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "SEO",
+        path: "#seo",
+        newTab: false,
+      },
+      {
+        id: 32,
+        title: "Performance Marketing",
+        path: "#performance",
+        newTab: false,
+      },
+      {
+        id: 33,
+        title: "Social Media",
+        path: "#social",
+        newTab: false,
+      },
+      {
+        id: 34,
+        title: "Content Marketing",
+        path: "#content",
+        newTab: false,
+      },
+      {
+        id: 35,
+        title: "Website Development",
+        path: "#website",
+        newTab: false,
+      },
+      {
+        id: 36,
+        title: "Branding & Design",
+        path: "#branding",
+        newTab: false,
+      },
+    ],
   },
   {
-    id: 5,
-    title: "Contact",
-    path: "/contact",
+    id: 4,
+    title: "Portfolio",
+    path: "/portfolio",
     newTab: false,
   },
   {
@@ -33,52 +71,9 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "Pages",
+    title: "Contact",
+    path: "/contact",
     newTab: false,
-    submenu: [
-      {
-        id: 61,
-        title: "About Page",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 62,
-        title: "Pricing Page",
-        path: "/pricing",
-        newTab: false,
-      },
-      {
-        id: 63,
-        title: "Contact Page",
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 64,
-        title: "Blog Grid Page",
-        path: "/blogs",
-        newTab: false,
-      },
-      {
-        id: 66,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 67,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 68,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
-    ],
   },
 ];
 export default menuData;

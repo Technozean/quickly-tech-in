@@ -17,10 +17,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Search Engine Optimization",
+    paragraph: "Drive organic traffic with our comprehensive SEO strategies including on-page optimization, technical SEO, local SEO, and detailed SEO audits.",
     btn: "Learn More",
-    btnLink: "/#",
+    btnLink: "#seo",
   },
   {
     id: 2,
@@ -38,10 +38,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Performance Marketing",
+    paragraph: "Maximize ROI with our data-driven advertising campaigns across Google Ads, Meta Ads, LinkedIn Ads, and advanced conversion rate optimization.",
     btn: "Learn More",
-    btnLink: "/#",
+    btnLink: "#performance",
   },
   {
     id: 3,
@@ -91,10 +91,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Social Media Marketing",
+    paragraph: "Build brand loyalty with strategic social media management including content creation, organic growth strategies, community management, and influencer partnerships.",
     btn: "Learn More",
-    btnLink: "/#",
+    btnLink: "#social",
   },
   {
     id: 4,
@@ -124,10 +124,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Website Design & Development",
+    paragraph: "Create stunning and functional websites with our expert design and development services including WordPress solutions, landing pages, UI/UX optimization, and maintenance.",
     btn: "Learn More",
-    btnLink: "/#",
+    btnLink: "#website",
   },
 ];
 export default featuresData;

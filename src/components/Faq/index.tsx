@@ -8,7 +8,7 @@ const Faq = () => {
         <SectionTitle
           subtitle="FAQ"
           title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Find answers to commonly asked questions about our digital marketing services and how we can help your business grow online."
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What does Quickly Design Technology Pvt Ltd do?"
+              answer="We are a full-service digital marketing agency that helps businesses grow online through SEO, social media marketing, paid ads, website design, branding, and more. We offer customized strategies based on your goals and industry."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How do I know which digital marketing services I need?"
+              answer="We begin with a free consultation and audit to understand your business, goals, and challenges. Based on that, we recommend a strategy tailored to your objectives."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Do you work with small businesses or only large companies?"
+              answer="We work with startups, small businesses, and large enterprises alike. Our flexible packages and scalable strategies fit businesses of all sizes."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How long before I start seeing results?"
+              answer="It depends on the service. Paid ads can show results within days or weeks, while SEO and content marketing typically take 2–3 months for consistent traction."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What platforms do you specialize in for paid ads?"
+              answer="We manage campaigns on Google Ads, Meta (Facebook & Instagram), LinkedIn, Twitter/X, and YouTube, depending on your target audience."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Can you build and manage our website as well?"
+              answer="Yes! We offer end-to-end website design and development, from UI/UX design to WordPress or custom builds, with ongoing support if needed."
             />
           </div>
         </div>

@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
+    name: "Rajesh Sharma",
+    designation: "CEO @ TechVantage Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Quickly Design transformed our online presence completely. Their SEO expertise helped us rank for competitive keywords, and our organic traffic has increased by 70% in just 4 months!",
     image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
+    name: "Priya Malhotra",
+    designation: "Founder @ StyleHub India",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Their social media management services have been game-changing for our fashion brand. Our engagement has doubled, and we've seen a 45% increase in conversions from Instagram alone.",
     image: "/images/testimonials/author-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "William Smith",
-    designation: "Founder @ Trorex",
+    name: "Vikram Patel",
+    designation: "Director @ Orion Edutech",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The website they developed for our educational institution is outstanding. The user experience is intuitive, mobile-responsive, and has helped us increase student applications by 50% year-over-year.",
     image: "/images/testimonials/author-03.png",
     star: 5,
   },
@@ -38,8 +38,8 @@ const Testimonials = () => {
       <div className="container px-4">
         <SectionTitle
           subtitle="Testimonials"
-          title="What our Client Say"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What our Clients Say"
+          paragraph="Hear from businesses across India who have partnered with us to achieve remarkable growth and digital success."
           width="640px"
           center
         />
